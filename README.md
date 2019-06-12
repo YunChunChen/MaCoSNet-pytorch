@@ -21,6 +21,8 @@ pip install -r requirements.txt
 ```
 
 ## Training
+ - This code is tested on NVIDIA V100 GPU with 16GB memory
+ - You may change the number of batch size based on the GPU memory in the train.sh $BATCH_SIZE variable
  
 ``` 
 sh train.sh
