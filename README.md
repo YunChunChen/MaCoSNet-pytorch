@@ -23,8 +23,8 @@ pip install -r requirements.txt
 
 ## Dataset
  - Please download the [PF-PASCAL](http://www.di.ens.fr/willow/research/proposalflow/dataset/PF-dataset-PASCAL.zip), [PF-WILLOW](http://www.di.ens.fr/willow/research/proposalflow/dataset/PF-dataset.zip), [TSS](https://drive.google.com/file/d/0B-VxeI7PlJE1U3FyTGVpbUFtcjg/view?usp=sharing), and [Internet](http://people.csail.mit.edu/mrub/ObjectDiscovery/ObjectDiscovery-data.zip) datasets
- - Please modify the path to the dataset in `config.py`
- - Please modify the variable `CSV_DIR` in `config.py` to your corresponding path
+ - Please modify the variable `DATASET_DIR` in `config.py` 
+ - Please modify the variable `CSV_DIR` in `config.py`
 
 
 
