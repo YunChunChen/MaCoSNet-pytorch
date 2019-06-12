@@ -11,6 +11,13 @@ If you find our code useful, please consider citing our work using the bibtex:
     journal={arXiv},
     year={2019}
 }
+
+@inproceedings{WeakMatchNet,
+  title={Deep Semantic Matching with Foreground Detection and Cycle-Consistency},
+  author={Chen, Yun-Chun and Huang, Po-Hsiang and Yu, Li-Yu and Huang, Jia-Bin and Yang, Ming-Hsuan and Lin, Yen-Yu},
+  booktitle={Asian Conference on Computer Vision (ACCV)},
+  year={2018}
+}
 ```
 
 ## Enviroment
