@@ -27,7 +27,7 @@ class ArgumentParser():
         base_params.add_argument('--model', type=str, default='', help='Pre-trained model filename')
         base_params.add_argument('--model-aff', type=str, default='', help='Trained affine model filename')
         base_params.add_argument('--model-tps', type=str, default='', help='Trained TPS model filename')
-        base_params.add_argument('--model-type', type=str, default='', help='Which model')
+        base_params.add_argument('--model-type', type=str, default='match', help='Which model')
         # GPU
         base_params.add_argument('--gpu', type=int, default=0, help='gpu id')
         base_params.add_argument('--num-workers', type=int, default=8, help='number of workers')
