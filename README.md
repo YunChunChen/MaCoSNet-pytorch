@@ -15,14 +15,15 @@ If you find our code useful, please consider citing our work using the bibtex:
 
 ## Enviroment
  - Install Anaconda Python3.7
+ - This code is tested on NVIDIA V100 GPU with 16GB memory
  
 ``` 
 pip install -r requirements.txt
 ```
 
 ## Training
- - This code is tested on NVIDIA V100 GPU with 16GB memory
- - You may change the number of batch size based on the GPU memory in the train.sh $BATCH_SIZE variable
+ - You may determine which dataset to be the `training set` by changing the $DATASET variable in train.sh
+ - You may change the $BATCH_SIZE variable in `train.sh` to a suitable value based on the GPU memory
  - The trained model will be saved under the `trained_models` folder
  
 ``` 
@@ -31,6 +32,8 @@ sh train.sh
 
 
 ## Evaluation
+ - You may determine which dataset to be evaluated by changing the $DATASET variable in eval.sh
+ - You may change the $BATCH_SIZE variable in `eval.sh` to a suitable value based on the GPU memory
  
 ``` 
 sh eval.sh
