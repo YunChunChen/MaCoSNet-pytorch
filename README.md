@@ -45,3 +45,6 @@ sh train.sh
 ``` 
 sh eval.sh
 ```
+
+## Acknowledgement
+ - This code is heavily borrowed from [Rocco et al.](https://github.com/ignacio-rocco/weakalign)
