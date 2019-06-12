@@ -16,4 +16,19 @@ If you find our code useful, please consider citing our work using the bibtex:
 ## Enviroment
  - Install Anaconda Python3.7
  
-``` pip install -r requirements.txt```
+``` 
+pip install -r requirements.txt
+```
+
+## Training
+ 
+``` 
+sh train.sh
+```
+
+
+## Evaluation
+ 
+``` 
+sh eval.sh
+```
