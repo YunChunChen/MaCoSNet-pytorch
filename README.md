@@ -2,6 +2,8 @@
 
 This repository contains the source code for the paper Show, Match and Segment: Joint Learning of Semantic Matching and Object Co-segmentation.
 
+<img src="img/teaser.png" width="1000">
+
 ## Citation
 If you find our code useful, please consider citing our work using the bibtex:
 ```
