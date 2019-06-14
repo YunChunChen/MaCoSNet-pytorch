@@ -5,7 +5,7 @@ This repository contains the source code for the paper Show, Match and Segment: 
 <img src="img/teaser.png" width="1000">
 
 ## Citation
-If you find our code useful, please consider citing our work using the bibtex:
+If you find our code useful, please consider citing our work using the following bibtex:
 ```
 @article{MaCoSNet,
     title={Show, Match and Segment: Joint Learning of Semantic Matching and Object Co-segmentation},
@@ -22,7 +22,7 @@ If you find our code useful, please consider citing our work using the bibtex:
 }
 ```
 
-## Enviroment
+## Environment
  - Install Anaconda Python3.7
  - This code is tested on NVIDIA V100 GPU with 16GB memory
  
