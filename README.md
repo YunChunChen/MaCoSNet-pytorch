@@ -4,6 +4,9 @@ This repository contains the source code for the paper Show, Match and Segment: 
 
 <img src="img/teaser.png" width="1000">
 
+## Abstract
+We present an approach for jointly matching and segmenting object instances of the same category within a collection of images. In contrast to existing algorithms that tackle the tasks of semantic matching and object co-segmentation in isolation, our method exploits the complementary nature of the two tasks. The key insights of our method are two-fold. First, the estimated dense correspondence fields from semantic matching provide supervision for object co-segmentation by enforcing consistency between the predicted masks from a pair of images. Second, the predicted object masks from object co-segmentation in turn allow us to reduce the adverse effects due to background clutters for improving semantic matching. Our model is end-to-end trainable and does not require supervision from manually annotated correspondences and object masks. We validate the efficacy of our approach on five benchmark datasets: TSS, Internet, PF-PASCAL, PF-WILLOW, and SPair-71k, and show that our algorithm performs favorably against the state-of-the-art methods on both semantic matching and object co-segmentation tasks.
+
 ## Citation
 If you find our code useful, please consider citing our work using the following bibtex:
 ```
