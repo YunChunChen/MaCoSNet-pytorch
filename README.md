@@ -1,6 +1,6 @@
-# Show, Match and Segment: Joint Learning of Semantic Matching and Object Co-segmentation
+# Show, Match and Segment: Joint Weakly Supervised Learning of Semantic Matching and Object Co-segmentation
 
-This repository contains the source code for the paper Show, Match and Segment: Joint Learning of Semantic Matching and Object Co-segmentation.
+This repository contains the source code for the paper Show, Match and Segment: Joint Weakly Supervised Learning of Semantic Matching and Object Co-segmentation.
 
 <img src="img/teaser.png" width="1000">
 
@@ -8,10 +8,10 @@ This repository contains the source code for the paper Show, Match and Segment: 
 If you find our code useful, please consider citing our work using the following bibtex:
 ```
 @article{MaCoSNet,
-    title={Show, Match and Segment: Joint Learning of Semantic Matching and Object Co-segmentation},
+    title={Show, Match and Segment: Joint Weakly Supervised Learning of Semantic Matching and Object Co-segmentation},
     author={Chen, Yun-Chun and Lin, Yen-Yu and Yang, Ming-Hsuan and Huang, Jia-Bin},
-    journal={arXiv},
-    year={2019}
+    journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI)},
+    year={2020}
 }
 
 @inproceedings{WeakMatchNet,
